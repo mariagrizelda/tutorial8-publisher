@@ -15,3 +15,6 @@ localhost:5672 points to the host and port where the AMQP server is accessible, 
 Essentially, the publisher sends messages to the RabbitMQ broker, and the subscriber retrieves and processes these messages, as seen on their respective consoles. This setup illustrates how data is transmitted from the publisher to the subscriber, with RabbitMQ serving as the intermediary.
 
 <img width="1134" alt="Screenshot 2024-04-24 at 02 38 42" src="https://github.com/mariagrizelda/tutorial8-publisher/assets/134635504/5060f1f0-9f1c-4e13-8afc-a5afb1e47353">
+
+The chart in the image displays the publisher's activity in terms of message transmission. By observing the 'message rates last minute,' it is possible to assess whether the publisher is experiencing a high or low load in message delivery. This information is useful for gauging the volume of messages being sent and processed.
+<img width="1450" alt="Screenshot 2024-04-24 at 02 48 25" src="https://github.com/mariagrizelda/tutorial8-publisher/assets/134635504/8761a7f2-b116-46e1-b6d8-48195b70e527">
