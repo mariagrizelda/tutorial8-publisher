@@ -16,5 +16,7 @@ Essentially, the publisher sends messages to the RabbitMQ broker, and the subscr
 
 <img width="1134" alt="Screenshot 2024-04-24 at 02 38 42" src="https://github.com/mariagrizelda/tutorial8-publisher/assets/134635504/5060f1f0-9f1c-4e13-8afc-a5afb1e47353">
 
-The chart in the image displays the publisher's activity in terms of message transmission. By observing the 'message rates last minute,' it is possible to assess whether the publisher is experiencing a high or low load in message delivery. This information is useful for gauging the volume of messages being sent and processed.
+The chart in the image details the publisher’s message transmission rates over the last minute, offering insights into the operational load of the messaging system. By tracking this metric, one can discern the frequency and intensity of message dispatches from the publisher. This measurement is crucial for understanding the real-time dynamics of the messaging system's throughput.
+
+When the 'message rates last minute' are high, it indicates that the publisher is actively sending out a substantial number of messages, suggesting a heavier operational load. This might be during peak usage times or when transmitting bulk data updates. Conversely, lower rates indicate fewer messages are being sent, which could signify less demand or idle periods.
 <img width="1450" alt="Screenshot 2024-04-24 at 02 48 25" src="https://github.com/mariagrizelda/tutorial8-publisher/assets/134635504/8761a7f2-b116-46e1-b6d8-48195b70e527">
